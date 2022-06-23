@@ -1,0 +1,28 @@
+{
+  "points": [
+    {
+      "id": "Store1",
+      "lat": 24.958398875188788,
+      "lng": 55.09576756643379,
+      "isOffloading": true,
+      "parentPointId": "DC1"
+    },
+    {
+      "id": "DC1",
+      "lat": 25.169966760399298,
+      "lng": 55.33797361242132,
+      "isOffloading": false,
+      "parentPointId": ""
+    }
+  ],
+  "vehicles": [
+    {
+      "Type": "truck",
+      "Number": 2
+    }
+  ],
+  "startLocation": {
+    "Lat": 24.937166408801044,
+    "Lng": 55.21257733283741
+  }
+}
