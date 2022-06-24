@@ -21,7 +21,7 @@ void parseJsonInfo::parseCustomersAndPickups(const rapidjson::Document &document
         if (isOffloading) {
             m_customers.push_back({id, lat, lng, parentId});
         } else {
-            m_pickups.push_back({id, lat, lng, 0.0}); //todo:pickLocation?
+            m_pickups.push_back({id, lat, lng, " "});
         }
     }
 }

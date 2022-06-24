@@ -9,7 +9,7 @@ int routes::getDistanceForATrip(const trip_t &trip) {
     for (int i = 0; i < trip.size() - 1; i++) {
         s += trip[i].getDistanceInMeters(trip[i + 1]);
     }
-    return s;
+    return static_cast<int>(s);
 }
 
 trips_t routes::getTrips() {

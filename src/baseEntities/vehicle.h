@@ -3,12 +3,10 @@
 
 #include <string>
 
-class vehicle {
-public:
+struct vehicle {
     std::string type;
-    double latitude;
-    double longitude;
-
+    double lat;
+    double lng;
 };
 
 
