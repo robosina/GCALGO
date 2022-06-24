@@ -9,10 +9,11 @@ cmake ..
 make
 ```
 
-You can see that an executable file named `greedy_construction` was created following a successful compilation:
+You can see that an executable file named `greedy_construction` was created following a successful compilation in the `bin` folder:
 ```bash
+$ cd bin
 $ ls
-bin  CMakeCache.txt  CMakeFiles  cmake_install.cmake  greedy_construction  lib  Makefile  tests
+greedy_construction tests
 ```
 
 We can run the executable file as follows:
@@ -21,3 +22,7 @@ We can run the executable file as follows:
 ```
 
 We can find a file named `output.json` near the executable if it was successful.
+```bash
+$ ls
+greedy_construction  output.json  tests
+```
